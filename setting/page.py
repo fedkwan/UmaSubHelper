@@ -201,7 +201,7 @@ sub_page_data = {
             (80, 520): [12, 197, 113],
             (80, 530): [12, 197, 113],
         },
-        "sub_image_position": [390, 630, 360, 420],
+        "sub_image_position": [394, 478, 352, 436],
         "expect_page_list": ["destroy_account"],
     },
     "destroy_account": {

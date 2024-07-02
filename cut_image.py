@@ -14,7 +14,7 @@ print(screen.shape)
 
 print(screen[1264, 300])
 
-cropped_image = screen[961:1034, 578:651]
+cropped_image = screen[352:436, 394:478]
 cv2.imwrite("cut" + str(time.time()) + ".png", cropped_image)
 
 # text_recognizer = TextRecognizer(cropped_image, ocr)
