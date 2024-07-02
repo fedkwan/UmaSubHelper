@@ -289,7 +289,7 @@ while True:
     screen = d.screenshot(format="opencv")
 
     page = get_page_and_expect_list(sub_page_data, screen, page_list)
-    print(page)
+    # print(page)
     if page is None:
         time.sleep(DEFAULT_SLEEP_TIME * 2)
         if check_tap():
